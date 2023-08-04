@@ -16,46 +16,46 @@ function verificar() {
             gen = 'homem'
             if (idade >= 0 && idade <= 2) {
                 //bebê
-                img.setAttribute('src', 'bebe-h.png')
+                img.setAttribute('src', 'imagens/bebe-h.png')
                 document.body.style.background = '#687abd'
             } else if (idade <= 10) {
                 //criança
-                img.setAttribute('src', 'criancah.png')
+                img.setAttribute('src', 'imagens/criancah.png')
                 document.body.style.background = '#52d8b4'     
             } else if (idade <= 21) {
                 //jovem
-                img.setAttribute('src', 'jovemh.png')
+                img.setAttribute('src', 'imagens/jovemh.png')
                 document.body.style.background = '#26256b'
             } else if (idade < 50) {
                 //adulto
-                img.setAttribute('src', 'adulto.png')
+                img.setAttribute('src', 'imagens/adulto.png')
                 document.body.style.background = '#2327c6'
             } else {
                 //idoso
-                img.setAttribute('src', 'idoso.png')
+                img.setAttribute('src', 'imagens/idoso.png')
                 document.body.style.background = '#52834b'
             }
         } else if (fsex[1].checked) {
             gen = 'mulher'
             if (idade >= 0 && idade <= 2) {
                 //bebê
-                img.setAttribute('src', 'bebe-m.png') //src = source da imagem = fonte
+                img.setAttribute('src', 'imagens/bebe-m.png') //src = source da imagem = fonte
                 document.body.style.background = '#d67fd1'
             } else if (idade <= 10) {
                 //criança
-                img.setAttribute('src', 'criancaw.png')
+                img.setAttribute('src', 'imagens/criancaw.png')
                 document.body.style.background = '#52d8b4'
             } else if (idade <= 21) {
                 //jovem
-                img.setAttribute('src', 'jovemw.png')
+                img.setAttribute('src', 'imagens/jovemw.png')
                 document.body.style.background = '#26256b'
             } else if (idade < 50) {
                 //adulta
-                img.setAttribute('src', 'adulta.png')
+                img.setAttribute('src', 'imagens/adulta.png')
                 document.body.style.background = '#975b9b'
             } else {
                 //idosa
-                img.setAttribute('src', 'idosa.png')
+                img.setAttribute('src', 'imagens/idosa.png')
                 document.body.style.background = '#52834b'
             }
         }
